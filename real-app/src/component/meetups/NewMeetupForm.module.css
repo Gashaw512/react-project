@@ -1,0 +1,33 @@
+.form{
+    padding: 2rem;
+ }
+.control{
+    margin-bottom: 1rem;
+}
+    .control label{
+        display: block;
+        font-weight: bold;
+        margin-bottom: 0.8rem;
+    }
+    .control input,
+    .control textarea{
+        display: block;
+        font: inherit;
+        border-radius: 5px;
+        border: 1px;
+        padding: 0.5rem;
+        width: 100%;
+    }
+    .action{
+        margin-top: 2rem;
+        text-align: right;
+    }
+.action button{
+    cursor: pointer;
+    font: inherit;
+    background-color: greenyellow;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50;
+    font-weight: bold;
+}
